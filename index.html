@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="My Website — a personal space to share my work, interests and ideas.">
+  <meta name="description" content="Arafat Rohman — a personal space to share my work, interests and ideas.">
   <meta name="theme-color" content="#0b1020">
-  <title>My Website | Personal Portfolio</title>
+  <title>Arafat Rohman | Personal Portfolio</title>
   <style>
     :root{--bg:#0b1020;--panel:#121a2e;--text:#edf2ff;--muted:#a9b5ce;--accent:#8b9cff;--line:rgba(255,255,255,.12)}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#26345c 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
@@ -20,37 +20,45 @@
     .about{display:grid;grid-template-columns:1fr 1fr;gap:35px}.about p{color:var(--muted);margin-top:0}.chips{display:flex;flex-wrap:wrap;gap:10px}.chip{border:1px solid var(--line);background:#ffffff08;border-radius:99px;padding:8px 13px;color:#dbe2f6;font-size:14px}
     .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{padding:23px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,#ffffff0b,#ffffff03)}.card .num{color:var(--accent);font-size:13px;font-weight:800}.card h3{margin:9px 0}.card p{margin:0;color:var(--muted);font-size:14px}
     .contact{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:30px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(120deg,#8b9cff22,#ffffff05)}
+    .social-btns{display:flex;gap:10px;margin-top:15px;flex-wrap:wrap}
+    .social-btns a{padding:8px 14px;background:#ffffff15;border:1px solid var(--line);border-radius:8px;font-size:13px;color:var(--text);transition:0.3s}
+    .social-btns a:hover{background:var(--accent);color:#10162c}
     footer{padding:28px 0;color:var(--muted);font-size:13px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
     @media(max-width:760px){.hero{grid-template-columns:1fr;padding:75px 0 60px;gap:35px}.profile-card{max-width:380px}.about{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.links{gap:12px;font-size:12px}.links a:nth-child(3){display:none}.contact{align-items:flex-start;flex-direction:column}h1{letter-spacing:-2px}}
   </style>
 </head>
 <body>
 <header><div class="wrap"><nav>
-  <a class="brand" href="#home">MY<span>.</span>WEBSITE</a>
+  <a class="brand" href="#home">ARAFAT<span>.</span>ROHMAN</a>
   <div class="links"><a href="#about">About</a><a href="#work">What I Do</a><a href="#contact">Contact</a></div>
 </nav></div></header>
 <main>
   <div class="wrap hero" id="home">
     <div>
       <div class="eyebrow">Welcome to my personal website</div>
-      <h1>Hello, I'm<br><span style="color:var(--accent)">Your Name.</span></h1>
+      <h1>Hello, I'm<br><span style="color:var(--accent)">Arafat Rohman.</span></h1>
       <p>I'm building my journey, learning new things and sharing the work and ideas that inspire me. This is my little corner of the internet.</p>
       <div class="actions"><a class="btn" href="#contact">Get in touch ↗</a><a class="btn secondary" href="#about">Explore my site</a></div>
     </div>
     <aside class="profile-card">
-      <div class="avatar" aria-label="Profile placeholder">✦</div>
-      <h3>Your Name</h3><p>Creator · Learner · Dreamer</p>
+      <div class="avatar" aria-label="Profile placeholder">AR</div>
+      <h3>Arafat Rohman</h3>
+      <p>Creator · Learner · Developer</p>
+      <div class="social-btns">
+        <a href="https://www.facebook.com/aluu143" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/obito__6.9/" target="_blank">Instagram</a>
+      </div>
     </aside>
   </div>
   <section id="about"><div class="wrap">
     <div class="section-head"><div class="eyebrow">A little introduction</div><h2>About Me</h2><p>A quick introduction and the things I enjoy.</p></div>
     <div class="about">
-      <p>Hi! Thanks for visiting. I'm someone who enjoys exploring ideas, learning useful skills and turning inspiration into action. Use this space to tell visitors who you are, what matters to you and what you're working toward.</p>
-      <div><h3 style="margin-top:0">Things I’m interested in</h3><div class="chips"><span class="chip">Technology</span><span class="chip">Creativity</span><span class="chip">Learning</span><span class="chip">Design</span><span class="chip">Making things</span></div></div>
+      <p>Hi! Thanks for visiting. I'm Arafat Rohman. Someone who enjoys exploring ideas, learning useful skills and turning inspiration into action. Welcome to my personal space on the web.</p>
+      <div><h3 style="margin-top:0">Things I’m interested in</h3><div class="chips"><span class="chip">Technology</span><span class="chip">Web Development</span><span class="chip">Learning</span><span class="chip">Design</span><span class="chip">Content Creation</span></div></div>
     </div>
   </div></section>
   <section id="work"><div class="wrap">
-    <div class="section-head"><div class="eyebrow">My focus</div><h2>What I Do</h2><p>Replace these cards with your skills, projects or interests.</p></div>
+    <div class="section-head"><div class="eyebrow">My focus</div><h2>What I Do</h2><p>Skills, projects and interests.</p></div>
     <div class="cards">
       <article class="card"><div class="num">01 / LEARN</div><h3>Keep Growing</h3><p>I enjoy learning new skills and finding better ways to do things.</p></article>
       <article class="card"><div class="num">02 / CREATE</div><h3>Make Ideas Real</h3><p>I like turning creative ideas into useful projects and experiences.</p></article>
@@ -58,9 +66,20 @@
     </div>
   </div></section>
   <section id="contact"><div class="wrap">
-    <div class="contact"><div><div class="eyebrow">Say hello</div><h2 style="margin:5px 0">Let's connect.</h2><p style="color:var(--muted);margin:0">Have a question or an idea? I'd love to hear from you.</p></div><a class="btn" href="mailto:hello@example.com">Email me ↗</a></div>
+    <div class="contact">
+      <div>
+        <div class="eyebrow">Say hello</div>
+        <h2 style="margin:5px 0">Let's connect.</h2>
+        <p style="color:var(--muted);margin:0">Have a question or an idea? Feel free to reach out via email or social links.</p>
+        <div class="social-btns" style="margin-top:12px;">
+          <a href="https://www.facebook.com/aluu143" target="_blank">Facebook</a>
+          <a href="https://www.instagram.com/obito__6.9/" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <a class="btn" href="mailto:arafatbhai169@gmail.com">Email me ↗</a>
+    </div>
   </div></section>
 </main>
-<footer class="wrap"><span>© <span id="year"></span> My Website. All rights reserved.</span><span>Made with care.</span></footer>
+<footer class="wrap"><span>© <span id="year"></span> Arafat Rohman. All rights reserved.</span><span>Made with care.</span></footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body></html>
